@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+$dark: #383c4a;
+$dark2: #404552;
+$dark3: #7c818c;
+$blue: #5294e2;
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 7px;
+}
+
+.inline-b{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 7px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 40px 0;
+    background-color: $dark !important;
+}
+
+.App{
+    header{
+        background-color: $dark2;
+        padding: 0 20px;
+        .brand{
+            padding: 15px 25px;
+            width: fit-content;
+            width: -moz-fit-content;
+            background-color: $blue;
+            color: white;
+        }
+        .brand-description{
+            color: white;
+            a{
+                color: white;
+            }
+        }
+    }
+  }

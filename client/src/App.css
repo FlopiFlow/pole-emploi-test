@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 7px;
+}
+
+.inline-b {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 7px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 40px 0;
+  background-color: #383c4a !important;
+}
+
+.App header {
+  background-color: #404552;
+  padding: 0 20px;
+}
+.App header .brand {
+  padding: 15px 25px;
+  width: -webkit-fit-content;
+  width: fit-content;
+  width: -moz-fit-content;
+  background-color: #5294e2;
+  color: white;
+}
+.App header .brand-description {
+  color: white;
+}
+.App header .brand-description a {
+  color: white;
+}/*# sourceMappingURL=App.css.map */
